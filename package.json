@@ -1,0 +1,21 @@
+{
+  "name": "skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A versioned collection of reusable AI-agent skills.",
+  "type": "module",
+  "scripts": {
+    "changeset": "changeset",
+    "version": "changeset version && node scripts/sync-plugin-version.mjs",
+    "tag": "changeset tag",
+    "validate": "node scripts/validate-skills.mjs",
+    "release:check": "npm run validate && npm run version"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.5.1",
+    "@changesets/cli": "^2.29.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

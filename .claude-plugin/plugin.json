@@ -1,0 +1,15 @@
+{
+  "name": "skills",
+  "version": "0.1.0",
+  "description": "Reusable skills for coding and AI agents.",
+  "author": {
+    "name": "ZS"
+  },
+  "repository": "https://github.com/zishenchan/skills",
+  "license": "MIT",
+  "skills": [
+    "./skills/diagnosing-bugs",
+    "./skills/example-skill",
+    "./skills/implement-spec"
+  ]
+}
