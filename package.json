@@ -1,6 +1,6 @@
 {
   "name": "skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "description": "A versioned collection of reusable AI-agent skills.",
   "type": "module",
