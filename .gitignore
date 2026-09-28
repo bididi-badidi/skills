@@ -1,3 +1,9 @@
+# Dependencies
 node_modules/
+
+# Generated analysis output
+reports/
+
+# OS and logs
 .DS_Store
 *.log

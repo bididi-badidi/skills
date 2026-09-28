@@ -1,0 +1,6 @@
+interface:
+  display_name: "Make Skill Router"
+  short_description: "Create an ask-skillset decision map"
+  default_prompt: "Use $make-skill-router to create an explicit consulting router for this installed skill collection."
+policy:
+  allow_implicit_invocation: false

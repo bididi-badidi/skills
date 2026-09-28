@@ -5,11 +5,12 @@
   "author": {
     "name": "ZS"
   },
-  "repository": "https://github.com/zishenchan/skills",
+  "repository": "https://github.com/bididi-badidi/skills",
   "license": "MIT",
   "skills": [
-    "./skills/diagnosing-bugs",
+    "./skills/ask-cloudflare",
     "./skills/example-skill",
-    "./skills/implement-spec"
+    "./skills/make-skill-router",
+    "./skills/teach-dumb-agents"
   ]
 }

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Ask Cloudflare"
+  short_description: "Find the right Cloudflare skill"
+policy:
+  allow_implicit_invocation: false

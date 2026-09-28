@@ -1,0 +1,4 @@
+interface:
+  display_name: "Teach Dumb Agents"
+  short_description: "Record complex tasks as reusable agent instructions"
+  default_prompt: "Use $teach-dumb-agents to document this complex task under docs/agents/instructions/ and link the guide from AGENTS.md."

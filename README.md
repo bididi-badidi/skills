@@ -8,18 +8,46 @@ This repository distributes curated, modular skills for AI agents (such as Claud
 
 ## Installing & Consuming
 
+### Via `npx` (Recommended)
+
+The repository follows the Agent Skills directory convention, so it can be
+installed directly from GitHub with the open `skills` CLI. This repository does
+not need to be published as an npm package.
+
+List the available skills:
+
+```bash
+npx skills add bididi-badidi/skills --list
+```
+
+Choose skills interactively and install them into the current project:
+
+```bash
+npx skills add bididi-badidi/skills
+```
+
+Install one skill globally:
+
+```bash
+npx skills add bididi-badidi/skills --skill ask-cloudflare --global
+```
+
+The installer detects supported coding agents and installs or links the
+selected skills into their expected skill directories.
+
 ### Via Claude Plugin Manifest
 This repository provides a Claude plugin manifest located at `.claude-plugin/plugin.json`. You can install or reference the skills collection directly:
 
 ```bash
 # Add as a plugin or clone into your configuration
-git clone https://github.com/zishenchan/skills.git
+git clone https://github.com/bididi-badidi/skills.git
 ```
 
 Refer to individual skills in `.claude-plugin/plugin.json`:
-- `skills/diagnosing-bugs`
+- `skills/ask-cloudflare`
 - `skills/example-skill`
-- `skills/implement-spec`
+- `skills/make-skill-router`
+- `skills/teach-dumb-agents`
 
 ### Inspecting Previous Versions
 Every release is tagged in Git. You can inspect or pin specific versions:
@@ -28,7 +56,7 @@ Every release is tagged in Git. You can inspect or pin specific versions:
 git checkout v0.1.0
 ```
 
-Browse all releases and changelogs on GitHub Releases: `https://github.com/zishenchan/skills/releases`.
+Browse all releases and changelogs on GitHub Releases: `https://github.com/bididi-badidi/skills/releases`.
 
 ---
 

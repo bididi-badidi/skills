@@ -3,7 +3,7 @@
   "changelog": [
     "@changesets/changelog-github",
     {
-      "repo": "zishenchan/skills"
+      "repo": "bididi-badidi/skills"
     }
   ],
   "commit": false,
